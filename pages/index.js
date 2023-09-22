@@ -8,9 +8,9 @@ export default function Home() {
 
   const ProfilePicture = () => (
     <Image
-      src="/images/profile.jpg" // Route of the image file
-      height={200} // Desired size with correct aspect ratio
-      width={200} // Desired size with correct aspect ratio
+      src="/images/profile.jpg"
+      height={200}
+      width={200}
       alt="Profile picture"
     />
   );
@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Jon's Blog</title>
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
 
       <main>
